@@ -17,3 +17,6 @@ p {
   font-family: Arial;
   font-size: 120%;
 }
+iframe {
+  border-width: 0px;
+}
