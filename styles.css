@@ -1,22 +1,35 @@
 @charset "UTF-8";
 body {
-  background-color: #08E497;
+  background-color: #066064;
 }
 h1 {
   color: red;
   font-family: Arial;
   font-size: 200%;
+  border-left: 5px black solid;
+  border-right: 5px black solid;
+  border-top: 5px black solid;
+  border-bottom: 5px black dotted;
 }
 h2 {
   color: green;
   font-family: Arial;
-  font-size: 160%;
 }
 p {
-  color: purple;
+  color: green;
   font-family: Arial;
   font-size: 120%;
+  border: 2px red solid;
+  border-radius: 5px;
+  margin: 20px;
 }
 iframe {
   border-width: 0px;
+  padding: 20px;
+}
+li {
+  padding: 5px;
+}
+dl {
+  padding: 20px;
 }
