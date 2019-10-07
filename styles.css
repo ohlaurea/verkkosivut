@@ -1,26 +1,26 @@
 @charset "UTF-8";
 body {
-  background-color: #066064;
+  background-color: #0C82E9;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  background-color: black;
 }
 h1 {
-  color: red;
+  color: #242B09;
   font-family: Arial;
   font-size: 200%;
-  border-left: 5px black solid;
-  border-right: 5px black solid;
-  border-top: 5px black solid;
-  border-bottom: 5px black dotted;
 }
 h2 {
-  color: green;
+  color: #242B09;
   font-family: Arial;
 }
 p {
-  color: green;
+  color: black;
   font-family: Arial;
   font-size: 120%;
-  border: 2px red solid;
-  border-radius: 5px;
   margin: 20px;
 }
 iframe {
@@ -32,4 +32,15 @@ li {
 }
 dl {
   padding: 20px;
+}
+nav {
+  font-size: 30px;
+  font-family: Arial;
+  color: black;
+  background-color: #A7739D;
+  width: 14%;
+}
+section {
+  background-color: cyan;
+  width: 200px;
 }
