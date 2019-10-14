@@ -1,46 +1,56 @@
 @charset "UTF-8";
 body {
-  background-color: #0C82E9;
+  background-color: #d63636;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
+* {
+  box-sizing: border-box;
+}
 header {
-  background-color: black;
-}
-h1 {
-  color: #242B09;
-  font-family: Arial;
-  font-size: 200%;
-}
-h2 {
-  color: #242B09;
-  font-family: Arial;
-}
-p {
-  color: black;
-  font-family: Arial;
-  font-size: 120%;
-  margin: 20px;
-}
-iframe {
-  border-width: 0px;
-  padding: 20px;
-}
-li {
-  padding: 5px;
-}
-dl {
-  padding: 20px;
+  background-color: #a70d0d;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
 }
 nav {
-  font-size: 30px;
-  font-family: Arial;
-  color: black;
-  background-color: #A7739D;
-  width: 14%;
+  text-align: center;
+  background-color: #a70d0d;
 }
-section {
-  background-color: cyan;
-  width: 200px;
+article {
+  float: left;
+  padding: 30px;
+  width: 50%;
+
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #a70d0d;
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a:hover {
+  color: #3333ff;
+}
+.vertical-menu {
+  float: left;
+  width: 35%;
+  background-color: #e10404;
+  padding: 20px;
+  height: 420px;
+}
+div ul {
+  list-style-type: none;
+  padding: 30px;
 }
