@@ -22,8 +22,8 @@
     <div class="collapse navbar-collapse" id="navbar">
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="index.html">Etusivu</a>
-        <a class="nav-item nav-link active" href="#">Eri Linux jakelut <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="windowsohjelmat.html">Windows ohjelmien tuki</a>
+        <a class="nav-item nav-link" href="jakelut.html">Eri Linux jakelut</a>
+        <a class="nav-item nav-link active" href="#">Windows ohjelmien tuki <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="tietoa.html">Tietoa Linuxista</a>
       </div>
       <div class="dropdown">
@@ -43,26 +43,13 @@
   <br>
   <div class="container">
     <div class="row">
-      <h2>Eri Linux jakelut</h2><br>
+      <h2>Windows ohjelmien tuki</h2>
+      <p>Linux jakeluilla on mahdollista käyttää erilaisia Windows ohjelmia erilaisten työkalujen/ohjelmien avulla. Tässä muutama ja niiden eri käyttötarkoitukset: </p>
       <ul>
-        <li>
-          Linux mint: t&auml;m&auml; jakelu on suunnattu ihmisille, joilla ei ole aiempaa k&auml;ytt&ouml; kokemusta Linux k&auml;ytt&ouml;j&auml;rjestelmist&auml;. Se on helppo asentaa, sek&auml; helppo k&auml;ytt&auml;inen. Se perustuu Ubuntuun.
-        </li>
-        <li>
-          Ubuntu: t&auml;m&auml; jakelu on my&ouml;s helppok&auml;ytt&ouml;inen, sek&auml; helppo asentaa. Se on kaikista suosituin Linux jakeluista, ja siit&auml; l&ouml;ytyy versiot sek&auml; palvelimille, ett&auml;
-          ty&ouml;p&ouml;yt&auml;k&auml;ytt&ouml;&ouml;n.
-        </li>
-        <li>
-          Debian: kyseinen jakelu on yksi vanhimmista jakeluista. Se on vakaa, mutta sit&auml; on paljon haastavampi k&auml;ytt&auml;&auml;, sek&auml; sen asennus on haastavampi. Molemmat sek&auml; Ubuntu, ett&auml; Linux mint perustuvat siihen.
-        </li>
-        <li>
-          Kali Linux: t&auml;m&auml; jakelu on tarkoitettu tietoturvatestaukseen, ja se sis&auml;lt&auml;&auml; monia eri ty&ouml;kaluja esimerkiksi modeemin salasanan murtamiseen, sek&auml; internet sivujen yleisempien haavoittuvuuksien
-          l&ouml;yt&auml;miseen. Se perustuu Debianiin
-        </li>
-        <li>
-          Arch Linux: t&auml;m&auml; on henkil&ouml;kohtainen suosikkini. Arch Linux vaatii k&auml;ytt&auml;j&auml;lt&auml; paljon teknist&auml; osaamista, ja ongelmienratkaisutaitoja. Sen asennus tehd&auml;&auml;n alusta asti komentorivilt&auml;,
-          eik&auml; sill&auml; ole graafista k&auml;ytt&ouml;liittym&auml;&auml; asennuksessa.
-        </li>
+        <li><a href="https://www.winehq.org/" target="_blank">Wine</a> - Tämä on ollut jo pitkän aikaa kaikista käytetyin työkalu Windows ohjelmien ajamiseen Linux jakeluilla. Tämä on sen verran haastava, että suosittelesin sitä vain edistyneille käyttäjille.</li>
+        <li><a href="https://www.playonlinux.com/en/" target="_blank">PlayOnLinux</a> - Ensisijaisesti tätä työkalua käytetään vähän vanhempien Windows pelien pelaamiseen, mutta sillä on mahdollista käyttää vähän vanhempia Office versioita.</li>
+        <li><a href="https://lutris.net/" target="_blank">Lutris</a> - Tämä on uudempi työkalu videopelien pelaamiseen. Kun kyseisen ohjelman on asentanut, niin on mahdollista ladata heidän verkkosivuiltaan ns. "asennus skripti", joka asentaa kaiken puolestasi, joten tämä on hyvin käyttäjäystävällinen eikä vaadi erityisiä tietoteknillisiä taitoja käyttäjältä.</li>
+        <li><a href="https://github.com/ValveSoftware/Proton" target="_blank">Proton</a> - Tämä on Valven kehittämä työkalu Steamille, ja mahdollistaa käyttäjän omistamien Steam pelien pelaamisen Linux jakeluilla. Tämä on vielä kehityksessä, ja kaikki pelit eivät välttämättä toimi. <a href="https://www.protondb.com/" target="_blank">Protondb</a> sisältää tietoa pelien tämän hetkisestä toimivuudesta, sekä käyttäjien kommentteja ja vinkkejä miten pelit saa toimimaan.</li>
       </ul>
     </div>
   </div>
@@ -71,6 +58,7 @@
       <p>&copy; 2019 Onni H.</p>
     </div>
   </footer>
+
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
